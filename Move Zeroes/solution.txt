@@ -1,0 +1,6 @@
+O(n) time complexity.
+
+do
+    find the first place of zero
+    swap with the first non-zero value after it
+until (all zeros are in the end)
