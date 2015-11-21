@@ -1,0 +1,4 @@
+Define a DFA and implement it.
+
+The DFA graph is in the directory.
+
