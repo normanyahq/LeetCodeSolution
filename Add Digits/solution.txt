@@ -1,0 +1,4 @@
+define f(n): the result of this problem given n
+f(n+1) = (f(n) - 1) % 9 + 1
+
+https://en.wikipedia.org/wiki/Digital_root
