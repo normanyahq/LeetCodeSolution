@@ -1,0 +1,5 @@
+there is only one pattern we need to subtract, 4, 8, 40, 80, 400, 800.
+so we can add all the values that the Roman numbers represent, 
+and then subtract the values of patterns appearing in the string. 
+remember to subtract two times of the values, because we added 
+them in the first step.

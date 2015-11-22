@@ -1,0 +1,9 @@
+I was asked in the internship interview of a company two years ago.
+
+The application for this implementation is to separate read & write
+of a queue in multi-processing. One of the stack is for read, and 
+another is for write. They only interfere each other when the former 
+one is full or latter is empty.
+
+
+This is not only a trick. :)
