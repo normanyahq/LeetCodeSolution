@@ -1,0 +1,20 @@
+use two pointer, one points to the next non-duplicate number (fast_pos),
+the other pointer (slow_pos) points to the index n, where n equals to the number
+of all unique numbers we found.
+
+e.g:
+
+1 2 3 3 3 3 3 3 4 4 5
+      |         |
+  slow_pos  fast_pos
+
+then we replace and move to the next:
+
+1 2 3 4 3 3 3 3 4 4 5
+        |           |
+    slow_pos    fast_pos
+
+then the length equals to slow_pos, 
+and we only need to return the first $slow_pos elements
+
+

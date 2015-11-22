@@ -1,0 +1,24 @@
+simple Dynamic Programming problem.
+
+we define f(i, rob_i): max amount of money we can get from the first house
+if we do/don't rob the ith house (rob_i == True / False)
+
+according to the definition we can easily get:
+
+f(i, True) = max(f(i-2, True) + nums[i], f(i-2, False) + nums[i], f(i-1, False))
+f(i, False) = max(f(i-2, True), f(i-1, True))
+
+and:
+
+f (0, True) = nums[0] 
+f (0, False,) = 0
+f (1, True,) = nums[1]
+f (1, False,) = nums[0]
+
+the solution is max (f(n, False), f(n, True))
+
+this state transition equation can be optimized into 1 dimention
+
+f(i) = max (f(i-2) + nums[i], f(i-1))
+the solution is max (f(n-1), f(n))
+
