@@ -1,0 +1,1 @@
+remember to deal with the situation that p == root or q == root.

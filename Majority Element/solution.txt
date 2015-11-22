@@ -1,0 +1,11 @@
+The idea is similar to the Link game, but in this game, what we link together are the different numbers.
+
+use a variable to record the number, and another to be a counter.
+
+then iterate through the list, if the number is the same with what we recorded, 
+add the counter, otherwise, minus the counter by one.
+
+if the counter is less than one, replace the number stored in the variable with current number,
+and reset the counter to one.
+
+after the iterator, the number left is the number appearing more than n/2 times
