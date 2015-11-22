@@ -1,0 +1,16 @@
+each multiple of 5 generates 1 zero,
+each multiple of 25 generates 2 zeros,
+each multiple of 125 generates 3 zeros,
+...
+each multiple of 5^i generates i zeros
+
+so 
+answer = sum_(i=1..k)([n/5^i]) where k=max(k | 5^k <n)
+
+http://www.programmerinterview.com/index.php/java-questions/find-trailing-zeros-in-factorial/
+https://en.wikipedia.org/wiki/Trailing_zero
+
+
+
+
+
