@@ -1,0 +1,3 @@
+This solution uses a similar technique in random shuffle and quick sort algorithms.
+
+
