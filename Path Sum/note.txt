@@ -1,0 +1,3 @@
+remember the definition of leaf node:
+
+a node without any child

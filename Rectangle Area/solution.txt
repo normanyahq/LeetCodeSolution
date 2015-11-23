@@ -1,0 +1,7 @@
+Tricky problem.
+
+It's too hard to list all the situations with shared area.
+
+We can compare AG, EC, HB, DF to see if they have shared area.
+then we can use a smart way to calculate the shared area,
+it's too hard to describe, so read to source code.

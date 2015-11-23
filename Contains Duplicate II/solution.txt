@@ -1,0 +1,4 @@
+maintain a set to store all values in a sliding window with size k+1.
+each time before we slide the window, we remove the first number in
+the window, and check whether the next number exists in the window.
+

@@ -1,0 +1,2 @@
+traditional bfs questions.
+pay special attention to the case when root==NULL

@@ -1,0 +1,15 @@
+1. in the source code, 
+        if not m:
+            nums1[:] = nums2[:]
+            #assign each value, it may be wrong if you write:
+            #nums1 = nums2
+
+    there is difference between nums1 = nums2 and nums1[:] = nums2[:]
+
+2. take extremely care with the corner cases:
+
+    if m < 0 or n >= 0 and nums2[n] > nums1[m]:
+    
+    I forgot n>=0 at first
+
+    Be clear in your mind!
