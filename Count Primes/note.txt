@@ -1,0 +1,8 @@
+Unbelievable, the best method is Number Field Sieve...
+
+I thought the best was to save a list of prime and try to divide one by one...
+
+It reminds me that divide operation is much slower than multiplication, because the 
+implementation of divide is trying to subtract as many times as possible, while 
+there is multiplying unit for multiplicaiton.
+

@@ -1,0 +1,7 @@
+solution.py get all the values from the linked list, and then reverse the value list,
+compare it with original list by subtracting each pair of elemnts to see if the sum
+of absolute differences is 0. The time and space complexity are O(n).
+
+A better way is to find the middle node of the linked list, and reverse the second half
+of the list. Then iterate through the first and the second half of to see if they are the
+same. This algorithm has better space complexity.
