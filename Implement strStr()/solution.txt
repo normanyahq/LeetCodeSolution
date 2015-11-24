@@ -1,0 +1,4 @@
+A good way to solve this problem is KMP algorithm with O(m+n) 
+time complexity, while it is a bit hard to understand. BM 
+algorithm has O(n) time complexity, but it's even more 
+complicated.
