@@ -1,0 +1,10 @@
+use two stacks, one is normal stack another is min stack.
+
+for the normal stack, do the same as usual.
+
+for the min stack, push only when the stack is empty,
+or, when the element to push is less than or equal to
+the top element.
+and it pops when the poped value equal to the top value
+in it.
+
