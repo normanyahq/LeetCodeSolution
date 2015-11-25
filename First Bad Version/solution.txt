@@ -1,0 +1,33 @@
+To solve this problem, you should have a better understanding on
+binary search. The basic framework is written as:
+
+
+# search x from array  arr[1..n]
+def bsearch (arr, x)
+    left = 1
+    right = n
+    while left <= right:
+        
+        mid = (left + right) / 2 
+        
+        #note, in C/C++, it's better to be written as
+        #mid = left + (right-left) / 2
+        #to avoid overflow
+        
+        if arr[mid] == x:
+            return mid
+        elif arr[mid] > x:
+            right = mid - 1
+        else:
+            left = mid + 1
+    return mid
+
+based on this version of bsearch, we can do several 
+modification on if_statements / return values  to return:
+
+the index of:
+leftmost value
+rightmost value
+...
+
+http://rosettacode.org/wiki/Binary_search
