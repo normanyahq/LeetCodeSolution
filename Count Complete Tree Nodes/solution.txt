@@ -1,0 +1,9 @@
+This problem is equivalent to do a binary search in the 
+leaf level in the binary tree: find the last exists node 
+in the binary tree.
+
+The leaf level nodes can be encoded in a binary sequence
+according to their path from the root, which is quite 
+similar to Huffman coding.
+
+
