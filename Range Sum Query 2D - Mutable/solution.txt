@@ -1,0 +1,4 @@
+The testcases have large matrix but only a few queries, 
+so in this scenario, StupidSum is better than Binary Index Tree.
+
+However, in interviews, we should also consider about differen use case.
