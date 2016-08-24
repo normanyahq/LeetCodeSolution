@@ -1,0 +1,5 @@
+greedy algorithm.
+
+need to prove this moving strategy will never miss the best result.
+
+proof by cantradiction
