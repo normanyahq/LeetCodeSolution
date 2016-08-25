@@ -1,0 +1,3 @@
+The reason we dont need segment tree here is:
+1. We don't have range query
+2. We have query for each point
