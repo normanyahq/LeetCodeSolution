@@ -1,0 +1,14 @@
+Think it as a finite machine
+
+s1: taking rest
+s2: having stock in hand
+s3: just sold stock
+
+                   ___           ___
+                   \ /           \ /
+[initialization]-->[s1]--(buy)-->[s2]--(sell)-->[s3]
+                    ^                            | 
+                    |                            |
+                    ------------------------------
+
+
